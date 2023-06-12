@@ -1,15 +1,46 @@
-h1{
-    font-size: 30px;
-    text-align: center;
-    color: #ecfff6
-    }
-    
-    p{
-    font-size: 20px;
-    text-align: left;
-    font-family: Helvetica, sans-serif;
-    }
-    
-    body {
-    background-color: #00000000;
-    }
+/* Styles pour la page "Le Retour de Monsieur Seguin" */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 32px;
+  margin: 0;
+}
+
+h2 {
+  color: #666;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h3 {
+  color: #333;
+  font-size: 24px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
