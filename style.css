@@ -6,7 +6,34 @@ body {
   padding: 0;
   background-color: #ffc12b;
 }
+header nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
 header {
   background-image: url('https://github.com/VincentM1978/VincentM1978.github.io/blob/main/home-ok-test-chevre-larzac-1250x550.jpg');
   background-size: cover;
